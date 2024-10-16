@@ -1,5 +1,5 @@
-use starknet_types_core::felt::Felt;
-use starknet_types_core::hash::Poseidon;
+use papyrus_starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::hash::Poseidon;
 
 use super::calculate_root;
 use crate::felt;

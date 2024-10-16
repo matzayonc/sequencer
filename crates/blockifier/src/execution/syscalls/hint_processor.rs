@@ -18,7 +18,7 @@ use starknet_api::core::{ClassHash, ContractAddress, EntryPointSelector};
 use starknet_api::state::StorageKey;
 use starknet_api::transaction::{AllResourceBounds, Calldata, Resource, ValidResourceBounds};
 use starknet_api::StarknetApiError;
-use starknet_types_core::felt::{Felt, FromStrError};
+use papyrus_starknet_types_core::felt::{Felt, FromStrError};
 use thiserror::Error;
 
 use crate::abi::sierra_types::SierraTypeError;

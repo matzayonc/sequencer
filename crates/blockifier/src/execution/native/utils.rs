@@ -1,7 +1,7 @@
 use cairo_lang_starknet_classes::contract_class::ContractEntryPoint;
 use itertools::Itertools;
 use starknet_api::core::EntryPointSelector;
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 pub fn contract_entrypoint_to_entrypoint_selector(
     entrypoint: &ContractEntryPoint,

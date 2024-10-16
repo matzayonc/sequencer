@@ -7,7 +7,7 @@ use serde::Serialize;
 use starknet_api::core::{ClassHash, EthAddress};
 use starknet_api::state::StorageKey;
 use starknet_api::transaction::{EventContent, L2ToL1Payload};
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 use crate::execution::contract_class::TrackedResource;
 use crate::execution::entry_point::CallEntryPoint;

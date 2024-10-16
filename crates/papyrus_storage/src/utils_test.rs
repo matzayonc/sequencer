@@ -10,7 +10,7 @@ use starknet_api::block::BlockNumber;
 use starknet_api::core::{ClassHash, CompiledClassHash};
 use starknet_api::hash::StarkHash;
 use starknet_api::state::{ContractClass, ThinStateDiff};
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 use super::update_storage_metrics;
 use crate::class::ClassStorageWriter;

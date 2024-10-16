@@ -13,7 +13,7 @@ use cairo_native::starknet::{
 use cairo_vm::vm::runners::cairo_runner::ExecutionResources;
 use starknet_api::core::{ContractAddress, EntryPointSelector};
 use starknet_api::state::StorageKey;
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 use crate::execution::call_info::{CallInfo, OrderedEvent, OrderedL2ToL1Message, Retdata};
 use crate::execution::entry_point::{CallEntryPoint, EntryPointExecutionContext};

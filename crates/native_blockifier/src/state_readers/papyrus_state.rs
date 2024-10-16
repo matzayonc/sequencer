@@ -9,7 +9,7 @@ use papyrus_storage::StorageReader;
 use starknet_api::block::BlockNumber;
 use starknet_api::core::{ClassHash, CompiledClassHash, ContractAddress, Nonce};
 use starknet_api::state::{StateNumber, StorageKey};
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 #[cfg(test)]
 #[path = "papyrus_state_test.rs"]

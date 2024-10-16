@@ -21,7 +21,7 @@ use starknet_api::transaction::{
     ValidResourceBounds,
 };
 use starknet_api::{calldata, declare_tx_args, deploy_account_tx_args, felt, invoke_tx_args};
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 use strum::IntoEnumIterator;
 
 use crate::abi::abi_utils::get_fee_token_var_address;

@@ -111,7 +111,7 @@ use starknet_client::writer::objects::transaction::{
 };
 use starknet_client::writer::{MockStarknetWriter, WriterClientError, WriterClientResult};
 use starknet_client::ClientError;
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 use super::super::api::EventsChunk;
 use super::super::block::{Block, GeneralBlockHeader, PendingBlockHeader, ResourcePrice};

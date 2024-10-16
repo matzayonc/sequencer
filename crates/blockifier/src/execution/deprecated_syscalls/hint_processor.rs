@@ -22,7 +22,7 @@ use starknet_api::core::{ClassHash, ContractAddress, EntryPointSelector};
 use starknet_api::state::StorageKey;
 use starknet_api::transaction::Calldata;
 use starknet_api::StarknetApiError;
-use starknet_types_core::felt::{Felt, FromStrError};
+use papyrus_starknet_types_core::felt::{Felt, FromStrError};
 use thiserror::Error;
 
 use crate::blockifier::block::BlockInfo;

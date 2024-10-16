@@ -10,7 +10,7 @@ use starknet_api::core::{ClassHash, ContractAddress, EntryPointSelector, Patrici
 use starknet_api::execution_resources::ExecutionResources;
 use starknet_api::transaction::{Calldata, EventContent, Fee, MessageToL1};
 use starknet_api::{contract_address, felt, patricia_key};
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 use crate::objects::{
     CallType,

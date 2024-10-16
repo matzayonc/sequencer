@@ -5,7 +5,7 @@ use cairo_vm::types::relocatable::Relocatable;
 use cairo_vm::vm::vm_core::VirtualMachine;
 use num_bigint::BigUint;
 use num_traits::{ToPrimitive, Zero};
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 use crate::abi::sierra_types::{SierraType, SierraU256};
 use crate::execution::execution_utils::{felt_from_ptr, write_maybe_relocatable, write_u256};

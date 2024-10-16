@@ -3,7 +3,7 @@ use std::sync::{Arc, Mutex, MutexGuard};
 
 use starknet_api::core::{ClassHash, CompiledClassHash, ContractAddress, Nonce};
 use starknet_api::state::StorageKey;
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 use crate::concurrency::versioned_storage::VersionedStorage;
 use crate::concurrency::TxIndex;

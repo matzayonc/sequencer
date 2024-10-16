@@ -28,7 +28,7 @@ use starknet_api::core::{ClassHash, CompiledClassHash, ContractAddress, Nonce, P
 use starknet_api::hash::StarkHash;
 use starknet_api::state::{ContractClass, StateNumber, StorageKey, ThinStateDiff};
 use starknet_api::{felt, patricia_key};
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 use crate::objects::PendingData;
 use crate::state_reader::ExecutionStateReader;

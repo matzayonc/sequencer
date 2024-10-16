@@ -26,7 +26,7 @@ use starknet_api::data_availability::L1DataAvailabilityMode;
 #[cfg(doc)]
 use starknet_api::transaction::TransactionOutput as starknet_api_transaction_output;
 use starknet_api::transaction::{TransactionHash, TransactionOffsetInBlock};
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 use crate::reader::objects::transaction::{
     L1ToL2Message,

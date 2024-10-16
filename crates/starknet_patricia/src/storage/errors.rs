@@ -1,5 +1,5 @@
 use serde_json;
-use starknet_types_core::felt::FromStrError;
+use papyrus_starknet_types_core::felt::FromStrError;
 use thiserror::Error;
 
 use crate::patricia_merkle_tree::node_data::errors::{EdgePathError, PathToBottomError};

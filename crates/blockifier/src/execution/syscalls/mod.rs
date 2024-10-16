@@ -19,7 +19,7 @@ use starknet_api::transaction::{
     EventKey,
     L2ToL1Payload,
 };
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 use self::hint_processor::{
     create_retdata_segment,

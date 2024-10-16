@@ -3,7 +3,7 @@ use starknet_api::core::{ClassHash, ContractAddress, EthAddress, PatriciaKey};
 use starknet_api::state::StorageKey;
 use starknet_api::transaction::L2ToL1Payload;
 use starknet_api::{class_hash, felt, patricia_key};
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 use crate::execution::call_info::{
     CallExecution,

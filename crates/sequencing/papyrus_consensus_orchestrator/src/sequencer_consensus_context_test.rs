@@ -26,7 +26,7 @@ use starknet_batcher_types::batcher_types::{
     ValidateProposalInput,
 };
 use starknet_batcher_types::communication::MockBatcherClient;
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 use crate::sequencer_consensus_context::SequencerConsensusContext;
 

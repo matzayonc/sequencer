@@ -1,6 +1,6 @@
 use std::sync::LazyLock;
 
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 use crate::block::BlockNumber;
 use crate::core::{ascii_as_felt, calculate_contract_address, ChainId, ContractAddress};

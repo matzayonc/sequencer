@@ -11,7 +11,7 @@ use starknet_api::rpc_transaction::{
     EntryPointByType as StarknetApiEntryPointByType,
 };
 use starknet_api::state::EntryPoint as StarknetApiEntryPoint;
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 /// Retruns a [`CairoLangContractClass`] struct ready for Sierra to Casm compilation. Note the `abi`
 /// field is None as it is not relevant for the compilation.

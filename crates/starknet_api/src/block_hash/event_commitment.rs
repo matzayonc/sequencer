@@ -1,5 +1,5 @@
-use starknet_types_core::felt::Felt;
-use starknet_types_core::hash::StarkHash;
+use papyrus_starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::hash::StarkHash;
 
 use crate::core::EventCommitment;
 use crate::crypto::patricia_hash::calculate_root;

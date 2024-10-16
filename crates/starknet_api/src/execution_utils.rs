@@ -1,5 +1,5 @@
 use cairo_lang_runner::casm_run::format_next_item;
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 pub fn format_panic_data(felts: &[Felt]) -> String {
     let mut felts = felts.iter().copied();

@@ -10,7 +10,7 @@ use starknet_patricia::patricia_merkle_tree::node_data::inner_node::{
     PathToBottom,
 };
 use starknet_patricia::patricia_merkle_tree::updated_skeleton_tree::hash_function::TreeHashFunction;
-use starknet_types_core::hash::Pedersen;
+use papyrus_starknet_types_core::hash::Pedersen;
 
 use crate::block_committer::input::StarknetStorageValue;
 use crate::hash_function::hash::TreeHashFunctionImpl;
@@ -91,7 +91,7 @@ fn test_tree_hash_function_impl_binary_node(
     #[case] right_hash: Felt,
     #[case] expected_hash: Felt,
 ) {
-    use starknet_types_core::hash::StarkHash;
+    use papyrus_starknet_types_core::hash::StarkHash;
 
     let hash_output =
         TreeHashFunctionImpl::compute_node_hash(&NodeData::<StarknetStorageValue>::Binary(
@@ -114,7 +114,7 @@ fn test_tree_hash_function_impl_edge_node(
     #[case] length: u8,
     #[case] expected_hash: Felt,
 ) {
-    use starknet_types_core::hash::StarkHash;
+    use papyrus_starknet_types_core::hash::StarkHash;
 
     let hash_output = TreeHashFunctionImpl::compute_node_hash(
         &NodeData::<StarknetStorageValue>::Edge(EdgeData {

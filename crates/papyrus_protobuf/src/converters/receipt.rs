@@ -15,7 +15,7 @@ use starknet_api::transaction::{
     TransactionExecutionStatus,
     TransactionOutput,
 };
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 use super::common::try_from_starkfelt_to_u128;
 use super::ProtobufConversionError;

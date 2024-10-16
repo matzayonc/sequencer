@@ -3,7 +3,7 @@
 mod rpc_transaction_test;
 
 use serde::{Deserialize, Serialize};
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 use crate::core::{
     calculate_contract_address,

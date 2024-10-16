@@ -1,7 +1,7 @@
 use std::collections::HashMap;
 
 use serde::{Deserialize, Serialize};
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 use strum_macros::EnumIter;
 
 use crate::block::{GasPrice, GasPriceVector, NonzeroGasPrice};

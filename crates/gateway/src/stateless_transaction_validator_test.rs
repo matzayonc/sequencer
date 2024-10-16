@@ -22,7 +22,7 @@ use starknet_api::transaction::{
     TransactionSignature,
 };
 use starknet_api::{calldata, felt};
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 use crate::compiler_version::{VersionId, VersionIdError};
 use crate::config::StatelessTransactionValidatorConfig;

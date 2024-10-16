@@ -15,7 +15,7 @@ use pyo3::create_exception;
 use pyo3::exceptions::PyException;
 use pyo3::prelude::*;
 use starknet_api::StarknetApiError;
-use starknet_types_core::felt::FromStrError;
+use papyrus_starknet_types_core::felt::FromStrError;
 use thiserror::Error;
 
 pub type NativeBlockifierResult<T> = Result<T, NativeBlockifierError>;

@@ -8,7 +8,7 @@ use starknet_api::execution_resources::GasVector;
 use starknet_api::state::StorageKey;
 use starknet_api::transaction::ValidResourceBounds::{AllResources, L1Gas};
 use starknet_api::transaction::{AllResourceBounds, Fee, GasVectorComputationMode, Resource};
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 use crate::abi::abi_utils::get_fee_token_var_address;
 use crate::abi::sierra_types::next_storage_key;

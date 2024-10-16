@@ -1,5 +1,5 @@
-use starknet_types_core::felt::Felt;
-use starknet_types_core::hash::StarkHash;
+use papyrus_starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::hash::StarkHash;
 
 use super::block_hash_calculator::{TransactionHashingData, TransactionOutputForHash};
 use crate::core::ReceiptCommitment;

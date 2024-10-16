@@ -16,7 +16,7 @@ use starknet_api::transaction::{
     TransactionVersion,
     ValidResourceBounds,
 };
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 use crate::abi::abi_utils::selector_from_name;
 use crate::abi::constants;

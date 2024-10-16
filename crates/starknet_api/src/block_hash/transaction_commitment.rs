@@ -1,5 +1,5 @@
-use starknet_types_core::felt::Felt;
-use starknet_types_core::hash::StarkHash as CoreStarkHash;
+use papyrus_starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::hash::StarkHash as CoreStarkHash;
 
 use super::block_hash_calculator::TransactionHashingData;
 use crate::core::TransactionCommitment;

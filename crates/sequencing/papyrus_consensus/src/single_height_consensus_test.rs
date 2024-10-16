@@ -4,7 +4,7 @@ use futures::channel::{mpsc, oneshot};
 use lazy_static::lazy_static;
 use papyrus_protobuf::consensus::ConsensusMessage;
 use starknet_api::block::{BlockHash, BlockNumber};
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 use test_case::test_case;
 use tokio;
 

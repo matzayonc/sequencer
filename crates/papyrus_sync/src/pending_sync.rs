@@ -5,12 +5,12 @@ use std::time::Duration;
 use futures::stream::FuturesUnordered;
 use futures_util::{FutureExt, StreamExt};
 use papyrus_common::pending_classes::{PendingClasses, PendingClassesTrait};
+use papyrus_starknet_types_core::felt::Felt;
 use papyrus_storage::header::HeaderStorageReader;
 use papyrus_storage::StorageReader;
 use starknet_api::block::{BlockHash, BlockNumber};
 use starknet_api::core::ClassHash;
 use starknet_client::reader::{DeclaredClassHashEntry, PendingData};
-use starknet_types_core::felt::Felt;
 use tokio::sync::RwLock;
 use tracing::{debug, trace};
 

@@ -9,8 +9,8 @@ use std::fmt;
 use std::fmt::LowerHex;
 
 use serde::{Deserialize, Serialize};
-use starknet_types_core::felt::Felt;
-use starknet_types_core::hash::{Pedersen, Poseidon, StarkHash as CoreStarkHash};
+use papyrus_starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::hash::{Pedersen, Poseidon, StarkHash as CoreStarkHash};
 
 use crate::hash::StarkHash;
 

@@ -9,7 +9,7 @@ use serde_json::{json, Value};
 use starknet_api::block::BlockNumber;
 use starknet_api::core::{ClassHash, CompiledClassHash, ContractAddress, Nonce};
 use starknet_api::state::StorageKey;
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 use crate::config::RpcStateReaderConfig;
 use crate::errors::{serde_err_to_state_err, RPCStateReaderError, RPCStateReaderResult};

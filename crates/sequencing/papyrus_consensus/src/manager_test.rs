@@ -17,7 +17,7 @@ use papyrus_protobuf::consensus::{ConsensusMessage, Vote};
 use papyrus_test_utils::{get_rng, GetTestInstance};
 use starknet_api::block::{BlockHash, BlockNumber};
 use starknet_api::transaction::Transaction;
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 use super::{run_consensus, MultiHeightManager};
 use crate::config::TimeoutsConfig;

@@ -1,7 +1,7 @@
 use pretty_assertions::assert_eq;
 use serde::{Deserialize, Serialize};
 use sha3::{Digest, Keccak256};
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 use super::{get_transaction_hash, validate_transaction_hash, CONSTRUCTOR_ENTRY_POINT_SELECTOR};
 use crate::block::BlockNumber;

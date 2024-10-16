@@ -29,7 +29,7 @@ use starknet_api::transaction::{
     TransactionVersion,
     ValidResourceBounds,
 };
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 use crate::reader::objects::state::ContractClass;
 use crate::reader::objects::transaction::{

@@ -19,7 +19,7 @@ use starknet_api::transaction::{
     EventKey,
     L2ToL1Payload,
 };
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 use strum_macros::EnumIter;
 
 use self::hint_processor::{

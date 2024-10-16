@@ -17,7 +17,7 @@ use starknet_api::deprecated_contract_class::ContractClass as DeprecatedContract
 use starknet_api::state::{StateDiff, StorageKey};
 use starknet_api::transaction::Calldata;
 use starknet_api::{calldata, felt};
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 use crate::py_block_executor::PyBlockExecutor;
 use crate::py_state_diff::PyBlockInfo;

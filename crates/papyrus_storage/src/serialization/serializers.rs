@@ -114,7 +114,7 @@ use starknet_api::transaction::{
     TransactionVersion,
     ValidResourceBounds,
 };
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 use tracing::warn;
 
 use crate::body::events::EventIndex;

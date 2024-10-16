@@ -5,7 +5,7 @@ use futures::channel::{mpsc, oneshot};
 use mockall::mock;
 use papyrus_protobuf::consensus::{ConsensusMessage, Proposal, Vote, VoteType};
 use starknet_api::block::{BlockHash, BlockNumber};
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 use crate::types::{
     ConsensusContext,

@@ -17,7 +17,7 @@ use cairo_vm::vm::errors::hint_errors::HintError;
 use cairo_vm::vm::runners::cairo_runner::RunResources;
 use cairo_vm::vm::vm_core::VirtualMachine;
 use num_bigint::BigUint;
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 use crate::execution::hint_code::{
     NORMALIZE_ADDRESS_SET_IS_250_HINT,

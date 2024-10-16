@@ -1516,7 +1516,7 @@ dependencies = [
  "serde_json",
  "sha2",
  "sha3",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "starknet_api",
  "strum 0.25.0",
  "strum_macros 0.25.3",
@@ -1544,7 +1544,7 @@ dependencies = [
  "serde",
  "serde_json",
  "starknet-core",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "starknet_api",
  "starknet_gateway",
  "thiserror",
@@ -1950,7 +1950,7 @@ dependencies = [
  "rand 0.8.5",
  "sha2",
  "smol_str",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "thiserror",
 ]
 
@@ -2003,7 +2003,7 @@ dependencies = [
  "serde_json",
  "sha3",
  "smol_str",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "thiserror",
 ]
 
@@ -2080,7 +2080,7 @@ dependencies = [
  "itertools 0.12.1",
  "num-bigint 0.4.6",
  "num-traits 0.2.19",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "thiserror",
 ]
 
@@ -2120,7 +2120,7 @@ dependencies = [
  "serde",
  "serde_json",
  "smol_str",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "thiserror",
 ]
 
@@ -2143,7 +2143,7 @@ dependencies = [
  "serde_json",
  "sha3",
  "smol_str",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "thiserror",
 ]
 
@@ -2197,7 +2197,7 @@ dependencies = [
  "num-bigint 0.4.6",
  "num-traits 0.2.19",
  "serde",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
@@ -2272,7 +2272,7 @@ dependencies = [
  "serde",
  "serde_json",
  "sha2",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "stats_alloc",
  "tempfile",
  "thiserror",
@@ -2291,7 +2291,7 @@ dependencies = [
  "rand 0.8.5",
  "starknet-crypto 0.7.2",
  "starknet-curve 0.5.1",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
@@ -2320,7 +2320,7 @@ dependencies = [
  "sha2",
  "sha3",
  "starknet-crypto 0.6.2",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "thiserror-no-std",
  "zip",
 ]
@@ -2632,7 +2632,7 @@ dependencies = [
  "serde",
  "serde_json",
  "serde_repr",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "starknet_api",
  "starknet_committer",
  "starknet_patricia",
@@ -6352,7 +6352,7 @@ dependencies = [
  "blockifier",
  "pretty_assertions",
  "serde_json",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "starknet_api",
 ]
 
@@ -6661,7 +6661,7 @@ dependencies = [
  "pyo3-log",
  "serde",
  "serde_json",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "starknet_api",
  "tempfile",
  "thiserror",
@@ -7215,7 +7215,7 @@ dependencies = [
  "pretty_assertions",
  "serde",
  "serde_json",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "starknet_api",
  "tar",
  "tempfile",
@@ -7239,7 +7239,7 @@ dependencies = [
  "serde",
  "serde_json",
  "sha3",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "starknet_api",
 ]
 
@@ -7281,7 +7281,7 @@ dependencies = [
  "papyrus_storage",
  "papyrus_test_utils",
  "serde",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "starknet_api",
  "test-case",
  "thiserror",
@@ -7303,7 +7303,7 @@ dependencies = [
  "papyrus_protobuf",
  "papyrus_storage",
  "papyrus_test_utils",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "starknet_api",
  "starknet_batcher_types",
  "test-case",
@@ -7334,7 +7334,7 @@ dependencies = [
  "rand_chacha 0.3.1",
  "serde",
  "serde_json",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "starknet_api",
  "thiserror",
  "tracing",
@@ -7490,7 +7490,7 @@ dependencies = [
  "rand 0.8.5",
  "rand_chacha 0.3.1",
  "serde",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "starknet_api",
  "static_assertions",
  "thiserror",
@@ -7528,7 +7528,7 @@ dependencies = [
  "protoc-prebuilt",
  "rand 0.8.5",
  "rand_chacha 0.3.1",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "starknet_api",
  "thiserror",
 ]
@@ -7575,7 +7575,7 @@ dependencies = [
  "serde",
  "serde_json",
  "starknet-core",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "starknet_api",
  "starknet_client",
  "strum 0.25.0",
@@ -7624,7 +7624,7 @@ dependencies = [
  "serde",
  "serde_json",
  "simple_logger",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (git+https://github.com/starknet-io/types-rs.git)",
  "starknet_api",
  "statistical",
  "tempfile",
@@ -7663,7 +7663,7 @@ dependencies = [
  "reqwest 0.11.27",
  "serde",
  "simple_logger",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "starknet_api",
  "starknet_client",
  "thiserror",
@@ -7689,7 +7689,7 @@ dependencies = [
  "reqwest 0.11.27",
  "serde",
  "serde_json",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "starknet_api",
 ]
 
@@ -10041,7 +10041,7 @@ dependencies = [
  "rfc6979",
  "sha2",
  "starknet-curve 0.5.1",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "zeroize",
 ]
 
@@ -10071,7 +10071,7 @@ version = "0.5.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "bcde6bd74269b8161948190ace6cf069ef20ac6e79cd2ba09b320efa7500b6de"
 dependencies = [
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
@@ -10104,6 +10104,19 @@ dependencies = [
 ]
 
 [[package]]
+name = "starknet-types-core"
+version = "0.1.7"
+source = "git+https://github.com/starknet-io/types-rs.git#7ef30234da7957f7585ea832d57d13083c76995c"
+dependencies = [
+ "lambdaworks-crypto",
+ "lambdaworks-math",
+ "num-bigint 0.4.6",
+ "num-integer",
+ "num-traits 0.2.19",
+ "serde",
+]
+
+[[package]]
 name = "starknet_api"
 version = "0.0.0"
 dependencies = [
@@ -10123,7 +10136,7 @@ dependencies = [
  "serde_json",
  "sha3",
  "starknet-crypto 0.7.2",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "strum 0.25.0",
  "strum_macros 0.25.3",
  "thiserror",
@@ -10145,7 +10158,7 @@ dependencies = [
  "papyrus_storage",
  "rstest",
  "serde",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "starknet_api",
  "starknet_batcher_types",
  "starknet_mempool_infra",
@@ -10197,7 +10210,7 @@ dependencies = [
  "serde_json",
  "serde_repr",
  "simple_logger",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "starknet_api",
  "strum 0.25.0",
  "strum_macros 0.25.3",
@@ -10216,7 +10229,7 @@ dependencies = [
  "pretty_assertions",
  "rstest",
  "serde_json",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "starknet_patricia",
  "thiserror",
  "tokio",
@@ -10267,7 +10280,7 @@ dependencies = [
  "rstest",
  "serde",
  "serde_json",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "starknet_api",
  "starknet_gateway_types",
  "starknet_mempool",
@@ -10328,7 +10341,7 @@ dependencies = [
  "papyrus_network_types",
  "pretty_assertions",
  "rstest",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "starknet_api",
  "starknet_mempool",
  "starknet_mempool_infra",
@@ -10349,7 +10362,7 @@ dependencies = [
  "pretty_assertions",
  "rstest",
  "serde",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "thiserror",
  "tokio",
  "tracing",
@@ -10377,7 +10390,7 @@ dependencies = [
  "reqwest 0.11.27",
  "rstest",
  "serde_json",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "starknet_api",
  "starknet_batcher",
  "starknet_batcher_types",
@@ -10505,7 +10518,7 @@ dependencies = [
  "rstest",
  "serde",
  "serde_json",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "strum 0.25.0",
  "strum_macros 0.25.3",
  "thiserror",
@@ -10526,7 +10539,7 @@ dependencies = [
  "rstest",
  "serde",
  "serde_json",
- "starknet-types-core",
+ "starknet-types-core 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "starknet_api",
  "tempfile",
  "thiserror",

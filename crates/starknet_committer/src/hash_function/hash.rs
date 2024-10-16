@@ -5,7 +5,7 @@ use starknet_patricia::patricia_merkle_tree::updated_skeleton_tree::hash_functio
     HashFunction,
     TreeHashFunction,
 };
-use starknet_types_core::hash::{Pedersen, Poseidon, StarkHash};
+use papyrus_starknet_types_core::hash::{Pedersen, Poseidon, StarkHash};
 
 use crate::block_committer::input::StarknetStorageValue;
 use crate::patricia_merkle_tree::leaf::leaf_impl::ContractState;

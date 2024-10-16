@@ -11,7 +11,7 @@ use starknet_api::transaction::{
     ValidResourceBounds,
 };
 use starknet_api::{felt, invoke_tx_args, patricia_key};
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 use crate::context::{BlockContext, ChainInfo};
 use crate::fee::fee_checks::FeeCheckError;

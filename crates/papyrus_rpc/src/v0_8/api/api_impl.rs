@@ -47,7 +47,7 @@ use starknet_client::reader::objects::transaction::{
 use starknet_client::reader::PendingData;
 use starknet_client::writer::{StarknetWriter, WriterClientError};
 use starknet_client::ClientError;
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 use tokio::sync::RwLock;
 use tracing::{instrument, trace, warn};
 

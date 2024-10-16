@@ -9,7 +9,7 @@ use starknet_api::deprecated_contract_class::ContractClass as DeprecatedContract
 use starknet_api::hash::StarkHash;
 use starknet_api::state::{ContractClass, StateNumber, StorageKey, ThinStateDiff};
 use starknet_api::{felt, patricia_key};
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 use crate::class::{ClassStorageReader, ClassStorageWriter};
 use crate::compiled_class::{CasmStorageReader, CasmStorageWriter};

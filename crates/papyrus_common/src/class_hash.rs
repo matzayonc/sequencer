@@ -7,8 +7,8 @@ use starknet_api::contract_class::EntryPointType;
 use starknet_api::core::ClassHash;
 use starknet_api::hash::PoseidonHash;
 use starknet_api::state::ContractClass;
-use starknet_types_core::felt::Felt;
-use starknet_types_core::hash::{Poseidon, StarkHash};
+use papyrus_starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::hash::{Poseidon, StarkHash};
 
 use crate::usize_into_felt;
 

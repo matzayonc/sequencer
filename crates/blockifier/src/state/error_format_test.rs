@@ -1,5 +1,5 @@
 use starknet_api::core::ClassHash;
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 use crate::state::errors::StateError;
 

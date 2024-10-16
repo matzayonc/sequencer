@@ -1,6 +1,6 @@
 use serde::{Deserialize, Serialize};
 use starknet_api::block::{BlockHash, BlockNumber};
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 pub mod class_hash;
 pub mod deprecated_class_abi;

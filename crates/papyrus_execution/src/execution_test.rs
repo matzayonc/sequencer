@@ -24,7 +24,7 @@ use starknet_api::core::{
 use starknet_api::state::{StateNumber, ThinStateDiff};
 use starknet_api::transaction::{Calldata, Fee};
 use starknet_api::{calldata, class_hash, contract_address, felt, patricia_key};
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 use crate::execution_utils::selector_from_name;
 use crate::objects::{

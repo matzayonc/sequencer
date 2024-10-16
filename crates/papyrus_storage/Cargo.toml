@@ -42,7 +42,9 @@ primitive-types.workspace = true
 serde = { workspace = true, features = ["derive"] }
 serde_json = { workspace = true, features = ["arbitrary_precision"] }
 # starknet-types-core = { workspace = true, features = ["papyrus-serialization"] }
-starknet-types-core.workspace = true
+papyrus-starknet-types-core = { git = "https://github.com/starknet-io/types-rs.git", features = [
+    "papyrus-serialization",
+] }
 starknet_api.workspace = true
 tempfile = { workspace = true, optional = true }
 thiserror.workspace = true

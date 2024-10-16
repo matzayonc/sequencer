@@ -37,7 +37,7 @@ use starknet_api::deprecated_contract_class::{
     EntryPointV0,
     Program as DeprecatedProgram,
 };
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 use crate::abi::constants::{self};
 use crate::execution::entry_point::CallEntryPoint;

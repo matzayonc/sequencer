@@ -38,7 +38,7 @@ use starknet_api::{
     patricia_key,
     storage_key,
 };
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 use crate::abi::abi_utils::{
     get_fee_token_var_address,

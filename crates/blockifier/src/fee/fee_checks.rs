@@ -1,7 +1,7 @@
 use starknet_api::execution_resources::{GasAmount, GasVector};
 use starknet_api::transaction::Resource::{self, L1DataGas, L1Gas, L2Gas};
 use starknet_api::transaction::{AllResourceBounds, Fee, ResourceBounds, ValidResourceBounds};
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 use thiserror::Error;
 
 use crate::context::TransactionContext;

@@ -2,7 +2,7 @@ use rstest::{fixture, rstest};
 use starknet_api::execution_resources::GasVector;
 use starknet_api::transaction::{GasVectorComputationMode, L2ToL1Payload};
 use starknet_api::{invoke_tx_args, nonce};
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 use crate::context::BlockContext;
 use crate::execution::call_info::{

@@ -1,6 +1,6 @@
 use indexmap::indexmap;
 use primitive_types::H160;
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 
 use super::block_hash_calculator::TransactionOutputForHash;
 use crate::core::{ClassHash, CompiledClassHash, ContractAddress, EthAddress, Nonce};

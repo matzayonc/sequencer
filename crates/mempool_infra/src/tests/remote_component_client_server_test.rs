@@ -10,7 +10,7 @@ use hyper::{Body, Client, Request, Response, Server, StatusCode, Uri};
 use rstest::rstest;
 use serde::de::DeserializeOwned;
 use serde::Serialize;
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 use tokio::sync::mpsc::channel;
 use tokio::sync::Mutex;
 use tokio::task;

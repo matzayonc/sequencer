@@ -16,7 +16,7 @@ use starknet_api::executable_transaction::{
     Transaction as ExecutableTransaction,
 };
 use starknet_gateway_types::errors::GatewaySpecError;
-use starknet_types_core::felt::Felt;
+use papyrus_starknet_types_core::felt::Felt;
 use tracing::error;
 
 use crate::config::StatefulTransactionValidatorConfig;
