@@ -40,7 +40,7 @@ use starknet_api::execution_resources::{
 };
 use starknet_api::state::ThinStateDiff;
 use starknet_api::transaction::{Calldata, EventContent, Fee, MessageToL1};
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use crate::{ExecutionError, ExecutionResult, TransactionExecutionOutput};
 

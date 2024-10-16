@@ -45,7 +45,7 @@ use starknet_api::transaction::{
     TransactionHash,
 };
 use starknet_api::{calldata, class_hash, contract_address, felt, patricia_key};
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use crate::execution_utils::selector_from_name;
 use crate::objects::{PendingData, TransactionSimulationOutput};

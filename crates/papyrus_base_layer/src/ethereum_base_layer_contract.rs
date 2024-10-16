@@ -16,7 +16,7 @@ use papyrus_config::{ParamPath, ParamPrivacyInput, SerializationType, Serialized
 use serde::{Deserialize, Serialize};
 use starknet_api::block::{BlockHash, BlockNumber};
 use starknet_api::hash::StarkHash;
-use papyrus_starknet_types_core::felt;
+use starknet_types_core::felt;
 use url::Url;
 
 use crate::BaseLayerContract;

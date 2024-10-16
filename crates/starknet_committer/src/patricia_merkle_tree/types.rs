@@ -4,7 +4,7 @@ use starknet_patricia::felt::Felt;
 use starknet_patricia::impl_from_hex_for_felt_wrapper;
 use starknet_patricia::patricia_merkle_tree::filled_tree::tree::FilledTreeImpl;
 use starknet_patricia::patricia_merkle_tree::types::NodeIndex;
-use papyrus_starknet_types_core::felt::FromStrError;
+use starknet_types_core::felt::FromStrError;
 
 use crate::block_committer::input::{ContractAddress, StarknetStorageValue};
 use crate::patricia_merkle_tree::leaf::leaf_impl::ContractState;

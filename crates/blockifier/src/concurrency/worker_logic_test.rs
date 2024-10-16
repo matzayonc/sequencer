@@ -19,7 +19,7 @@ use starknet_api::{
     patricia_key,
     storage_key,
 };
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use super::WorkerExecutor;
 use crate::abi::abi_utils::get_fee_token_var_address;

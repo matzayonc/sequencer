@@ -2,7 +2,7 @@ use core::fmt;
 
 use ethnum::U256;
 use serde::{Deserialize, Serialize};
-use papyrus_starknet_types_core::felt::{Felt as StarknetTypesFelt, FromStrError};
+use starknet_types_core::felt::{Felt as StarknetTypesFelt, FromStrError};
 
 #[derive(
     Eq,

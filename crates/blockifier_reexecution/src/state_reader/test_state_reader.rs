@@ -19,7 +19,7 @@ use starknet_gateway::config::RpcStateReaderConfig;
 use starknet_gateway::errors::serde_err_to_state_err;
 use starknet_gateway::rpc_objects::{BlockHeader, GetBlockWithTxHashesParams, ResourcePrice};
 use starknet_gateway::rpc_state_reader::RpcStateReader;
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use crate::state_reader::compile::{legacy_to_contract_class_v0, sierra_to_contact_class_v1};
 use crate::state_reader::errors::ReexecutionError;

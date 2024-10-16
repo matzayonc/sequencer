@@ -6,7 +6,7 @@ use papyrus_test_utils::{auto_impl_get_test_instance, get_number_of_variants, Ge
 use starknet_api::block::{BlockHash, BlockHeader, BlockNumber, BlockSignature};
 use starknet_api::core::{ClassHash, CompiledClassHash, ContractAddress, Nonce};
 use starknet_api::state::StorageKey;
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 #[derive(Debug, PartialEq, Eq, Clone, Copy, Default, Hash)]
 pub enum Direction {

@@ -2,7 +2,7 @@ use itertools::concat;
 use pretty_assertions::assert_eq;
 use starknet_api::felt;
 use starknet_api::transaction::{Calldata, EventContent, EventData, EventKey};
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 use test_case::test_case;
 
 use crate::abi::abi_utils::selector_from_name;

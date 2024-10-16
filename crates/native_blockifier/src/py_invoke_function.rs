@@ -18,7 +18,7 @@ use starknet_api::transaction::{
     TransactionHash,
     TransactionSignature,
 };
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use crate::errors::{NativeBlockifierInputError, NativeBlockifierResult};
 use crate::py_transaction::{PyDataAvailabilityMode, PyResourceBoundsMapping};

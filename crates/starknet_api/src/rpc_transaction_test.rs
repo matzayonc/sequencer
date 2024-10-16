@@ -1,7 +1,7 @@
 use std::sync::Arc;
 
 use rstest::rstest;
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use crate::block::GasPrice;
 use crate::core::{ClassHash, CompiledClassHash, ContractAddress, Nonce, PatriciaKey};

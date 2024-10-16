@@ -7,7 +7,7 @@ use std::fmt::Debug;
 
 use indexmap::IndexMap;
 use serde::{Deserialize, Serialize};
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use crate::block::{BlockHash, BlockNumber};
 use crate::contract_class::EntryPointType;

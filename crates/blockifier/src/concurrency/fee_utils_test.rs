@@ -2,7 +2,7 @@ use num_bigint::BigUint;
 use rstest::rstest;
 use starknet_api::transaction::{Fee, ValidResourceBounds};
 use starknet_api::{felt, invoke_tx_args};
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use crate::concurrency::fee_utils::{add_fee_to_sequencer_balance, fill_sequencer_balance_reads};
 use crate::concurrency::test_utils::create_fee_transfer_call_info;

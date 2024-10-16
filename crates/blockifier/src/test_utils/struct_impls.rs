@@ -7,7 +7,7 @@ use starknet_api::core::{ChainId, ClassHash, ContractAddress, Nonce, PatriciaKey
 use starknet_api::hash::StarkHash;
 use starknet_api::transaction::{Calldata, Fee, TransactionHash, TransactionVersion};
 use starknet_api::{calldata, contract_address, felt, patricia_key};
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use super::update_json_value;
 use crate::abi::abi_utils::selector_from_name;

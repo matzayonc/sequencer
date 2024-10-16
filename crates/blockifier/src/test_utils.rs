@@ -26,7 +26,7 @@ use starknet_api::transaction::{
     TransactionVersion,
 };
 use starknet_api::{contract_address, felt, patricia_key};
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use crate::abi::abi_utils::{get_fee_token_var_address, selector_from_name};
 use crate::execution::call_info::ExecutionSummary;

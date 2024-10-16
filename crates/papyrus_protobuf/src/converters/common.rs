@@ -9,7 +9,7 @@ use crate::sync::{BlockHashOrNumber, Direction, Query};
 #[allow(dead_code)]
 pub const PATRICIA_HEIGHT: u32 = 251;
 
-impl TryFrom<protobuf::Felt252> for papyrus_starknet_types_core::felt::Felt {
+impl TryFrom<protobuf::Felt252> for starknet_types_core::felt::Felt {
     type Error = ProtobufConversionError;
     fn try_from(value: protobuf::Felt252) -> Result<Self, Self::Error> {
         let mut felt = [0; 32];
@@ -27,8 +27,8 @@ impl TryFrom<protobuf::Felt252> for papyrus_starknet_types_core::felt::Felt {
     }
 }
 
-impl From<papyrus_starknet_types_core::felt::Felt> for protobuf::Felt252 {
-    fn from(value: papyrus_starknet_types_core::felt::Felt) -> Self {
+impl From<starknet_types_core::felt::Felt> for protobuf::Felt252 {
+    fn from(value: starknet_types_core::felt::Felt) -> Self {
         Self { elements: value.to_bytes_be().to_vec() }
     }
 }
@@ -101,7 +101,7 @@ impl TryFrom<protobuf::Address> for starknet_api::core::ContractAddress {
         }
         felt.copy_from_slice(&value.elements);
         // TODO: use from_bytes_checked once it's available.
-        let hash = papyrus_starknet_types_core::felt::Felt::from_bytes_be(&felt);
+        let hash = starknet_types_core::felt::Felt::from_bytes_be(&felt);
         // if let Ok(hash) = starknet_api::hash::StarkHash::new(felt) {
         if let Ok(stark_felt) = starknet_api::core::PatriciaKey::try_from(hash) {
             Ok(starknet_api::core::ContractAddress(stark_felt))
@@ -261,7 +261,7 @@ impl From<Query> for protobuf::Iteration {
 
 // TODO: Consider add this functionality to the Felt itself.
 pub(super) fn try_from_starkfelt_to_u128(
-    felt: papyrus_starknet_types_core::felt::Felt,
+    felt: starknet_types_core::felt::Felt,
 ) -> Result<u128, &'static str> {
     const COMPLIMENT_OF_U128: usize = 16; // 32 - 16
     let felt_be_bytes = felt.to_bytes_be();
@@ -280,7 +280,7 @@ pub(super) fn try_from_starkfelt_to_u128(
 
 // TODO: Consider add this functionality to the Felt itself.
 pub(super) fn try_from_starkfelt_to_u32(
-    felt: papyrus_starknet_types_core::felt::Felt,
+    felt: starknet_types_core::felt::Felt,
 ) -> Result<u32, &'static str> {
     const COMPLIMENT_OF_U32: usize = 28; // 32 - 4
     let felt_be_bytes = felt.to_bytes_be();

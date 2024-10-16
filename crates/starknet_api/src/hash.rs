@@ -2,7 +2,7 @@ use std::fmt::Debug;
 
 use serde::{Deserialize, Serialize};
 use sha3::{Digest, Keccak256};
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 pub type StarkHash = Felt;
 
@@ -52,7 +52,7 @@ impl TryIntoFelt<&str> for FeltConverter {
     }
 }
 
-/// A utility macro to create a [`papyrus_starknet_types_core::felt::Felt`] from an intergert or a hex
+/// A utility macro to create a [`starknet_types_core::felt::Felt`] from an intergert or a hex
 /// string representation.
 #[cfg(any(feature = "testing", test))]
 #[macro_export]

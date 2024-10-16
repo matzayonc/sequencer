@@ -13,7 +13,7 @@ use starknet_api::block::BlockNumber;
 use starknet_api::contract_class::EntryPointType;
 use starknet_api::core::{ChainId, ClassHash, CompiledClassHash};
 use starknet_api::state::EntryPoint;
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 use tracing::debug;
 
 use crate::compiled_class::CasmStorageReader;

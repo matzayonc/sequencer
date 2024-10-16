@@ -42,7 +42,7 @@ use starknet_api::{
     nonce,
     patricia_key,
 };
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 use strum::IntoEnumIterator;
 
 use crate::abi::abi_utils::{

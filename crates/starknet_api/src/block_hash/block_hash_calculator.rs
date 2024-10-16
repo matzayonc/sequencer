@@ -1,8 +1,8 @@
 use std::sync::LazyLock;
 
 use serde::{Deserialize, Serialize};
-use papyrus_starknet_types_core::felt::Felt;
-use papyrus_starknet_types_core::hash::Poseidon;
+use starknet_types_core::felt::Felt;
+use starknet_types_core::hash::Poseidon;
 
 use super::event_commitment::{calculate_event_commitment, EventLeafElement};
 use super::receipt_commitment::{calculate_receipt_commitment, ReceiptElement};

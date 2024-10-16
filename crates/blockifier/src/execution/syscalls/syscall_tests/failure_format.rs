@@ -1,5 +1,5 @@
 use cairo_lang_utils::byte_array::BYTE_ARRAY_MAGIC;
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use crate::execution::errors::EntryPointExecutionError;
 

@@ -28,7 +28,7 @@ use starknet_api::transaction::{
     TransactionSignature,
 };
 use starknet_client::writer::objects::transaction::DeprecatedContractClass;
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use super::super::state::{ContractClass, EntryPointByType};
 use super::{

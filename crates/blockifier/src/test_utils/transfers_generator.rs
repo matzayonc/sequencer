@@ -4,7 +4,7 @@ use starknet_api::core::ContractAddress;
 use starknet_api::test_utils::NonceManager;
 use starknet_api::transaction::{Calldata, Fee, TransactionVersion};
 use starknet_api::{calldata, felt, invoke_tx_args};
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use crate::abi::abi_utils::selector_from_name;
 use crate::blockifier::config::{ConcurrencyConfig, TransactionExecutorConfig};

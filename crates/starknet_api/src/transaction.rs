@@ -5,7 +5,7 @@ use std::sync::Arc;
 use derive_more::{Display, From};
 use num_bigint::BigUint;
 use serde::{Deserialize, Deserializer, Serialize, Serializer};
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 use strum_macros::EnumIter;
 
 use crate::block::{BlockHash, BlockNumber, GasPrice, NonzeroGasPrice};

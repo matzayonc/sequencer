@@ -10,7 +10,7 @@ use starknet_api::block::{
 };
 use starknet_api::core::ContractAddress;
 use starknet_api::state::StorageKey;
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use crate::abi::constants;
 use crate::state::errors::StateError;

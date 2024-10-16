@@ -6,7 +6,7 @@ use prost::Message;
 use starknet_api::core::{ClassHash, CompiledClassHash, Nonce};
 use starknet_api::data_availability::DataAvailabilityMode;
 use starknet_api::state::{StorageKey, ThinStateDiff};
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use super::common::volition_domain_to_enum_int;
 use super::ProtobufConversionError;

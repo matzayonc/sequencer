@@ -1,5 +1,4 @@
 use indexmap::indexmap;
-use papyrus_starknet_types_core::felt::Felt;
 use starknet_api::block_hash::block_hash_calculator::{
     TransactionHashingData, TransactionOutputForHash,
 };
@@ -13,6 +12,7 @@ use starknet_api::transaction::{
     RevertedTransactionExecutionStatus, TransactionExecutionStatus, TransactionHash,
     TransactionSignature,
 };
+use starknet_types_core::felt::Felt;
 
 pub(crate) fn get_transaction_output_for_hash(
     execution_status: &TransactionExecutionStatus,

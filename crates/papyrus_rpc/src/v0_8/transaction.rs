@@ -47,7 +47,7 @@ use starknet_api::transaction::{
     TransactionVersion,
 };
 use starknet_client::writer::objects::transaction as client_transaction;
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use super::error::BLOCK_NOT_FOUND;
 use crate::internal_server_error;

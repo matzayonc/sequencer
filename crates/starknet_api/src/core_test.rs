@@ -1,6 +1,6 @@
 use assert_matches::assert_matches;
-use papyrus_starknet_types_core::felt::Felt;
-use papyrus_starknet_types_core::hash::{Pedersen, StarkHash as CoreStarkHash};
+use starknet_types_core::felt::Felt;
+use starknet_types_core::hash::{Pedersen, StarkHash as CoreStarkHash};
 
 use crate::core::{
     ascii_as_felt,

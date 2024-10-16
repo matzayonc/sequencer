@@ -6,7 +6,7 @@ use starknet_api::execution_resources::GasAmount;
 use starknet_api::execution_utils::format_panic_data;
 use starknet_api::transaction::{Fee, Resource, TransactionVersion};
 use starknet_api::StarknetApiError;
-use papyrus_starknet_types_core::felt::FromStrError;
+use starknet_types_core::felt::FromStrError;
 use thiserror::Error;
 
 use crate::bouncer::BouncerWeights;

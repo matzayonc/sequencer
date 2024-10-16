@@ -3,7 +3,7 @@ use std::collections::HashMap;
 use num_traits::ToPrimitive;
 use starknet_api::core::ContractAddress;
 use starknet_api::transaction::Fee;
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use crate::context::{BlockContext, TransactionContext};
 use crate::execution::call_info::CallInfo;

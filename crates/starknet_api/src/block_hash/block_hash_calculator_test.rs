@@ -1,5 +1,5 @@
 use rstest::rstest;
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use super::concat_counts;
 use crate::block::{

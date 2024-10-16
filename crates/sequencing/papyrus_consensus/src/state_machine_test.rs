@@ -2,7 +2,7 @@ use std::collections::VecDeque;
 
 use lazy_static::lazy_static;
 use starknet_api::block::BlockHash;
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 use test_case::test_case;
 
 use super::Round;

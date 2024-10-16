@@ -8,7 +8,7 @@ use starknet_api::rpc_transaction::{
 };
 use starknet_api::state::EntryPoint;
 use starknet_api::transaction::{AllResourceBounds, Resource};
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 use tracing::{instrument, Level};
 
 use crate::compiler_version::VersionId;

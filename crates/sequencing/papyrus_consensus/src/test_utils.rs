@@ -5,15 +5,10 @@ use futures::channel::{mpsc, oneshot};
 use mockall::mock;
 use papyrus_protobuf::consensus::{ConsensusMessage, Proposal, Vote, VoteType};
 use starknet_api::block::{BlockHash, BlockNumber};
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use crate::types::{
-    ConsensusContext,
-    ConsensusError,
-    ProposalContentId,
-    ProposalInit,
-    Round,
-    ValidatorId,
+    ConsensusContext, ConsensusError, ProposalContentId, ProposalInit, Round, ValidatorId,
 };
 
 /// Define a consensus block which can be used to enable auto mocking Context.

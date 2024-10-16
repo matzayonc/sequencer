@@ -1,5 +1,5 @@
-use papyrus_starknet_types_core::felt::Felt;
-use papyrus_starknet_types_core::hash::Poseidon;
+use starknet_types_core::felt::Felt;
+use starknet_types_core::hash::Poseidon;
 
 use super::{calculate_event_commitment, calculate_event_hash, EventLeafElement};
 use crate::core::{ContractAddress, EventCommitment, PatriciaKey};

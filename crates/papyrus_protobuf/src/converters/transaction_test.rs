@@ -20,7 +20,7 @@ use starknet_api::transaction::{
     TransactionOutput,
     ValidResourceBounds,
 };
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use crate::sync::DataOrFin;
 

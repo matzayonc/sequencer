@@ -6,8 +6,8 @@ use starknet_api::core::{
     L2_ADDRESS_UPPER_BOUND,
 };
 use starknet_api::state::StorageKey;
-use papyrus_starknet_types_core::felt::{Felt, NonZeroFelt};
-use papyrus_starknet_types_core::hash::{Pedersen, StarkHash};
+use starknet_types_core::felt::{Felt, NonZeroFelt};
+use starknet_types_core::hash::{Pedersen, StarkHash};
 
 use crate::abi::constants;
 

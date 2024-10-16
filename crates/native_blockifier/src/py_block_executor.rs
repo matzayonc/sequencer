@@ -20,7 +20,7 @@ use starknet_api::block::BlockNumber;
 use starknet_api::core::{ChainId, ContractAddress};
 use starknet_api::execution_resources::GasVector;
 use starknet_api::transaction::Fee;
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use crate::errors::{NativeBlockifierError, NativeBlockifierResult};
 use crate::py_objects::{PyBouncerConfig, PyConcurrencyConfig, PyVersionedConstantsOverrides};

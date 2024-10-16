@@ -22,7 +22,7 @@ use starknet_api::{calldata, contract_address, felt, patricia_key};
 use starknet_client::writer::objects::transaction::InvokeTransaction as SNClientInvokeTransaction;
 use starknet_core::crypto::ecdsa_sign;
 use starknet_core::types::FieldElement;
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 const ETH_TO_WEI: u128 = u128::pow(10, 18);
 const MAX_FEE: u128 = ETH_TO_WEI / 1000;

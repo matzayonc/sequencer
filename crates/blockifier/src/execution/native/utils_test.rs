@@ -2,7 +2,7 @@ use cairo_lang_starknet_classes::contract_class::ContractEntryPoint;
 use num_bigint::BigUint;
 use pretty_assertions::assert_eq;
 use starknet_api::core::EntryPointSelector;
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use crate::execution::native::utils::{
     contract_entrypoint_to_entrypoint_selector,

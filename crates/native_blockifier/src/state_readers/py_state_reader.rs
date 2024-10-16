@@ -4,7 +4,7 @@ use blockifier::state::state_api::{StateReader, StateResult};
 use pyo3::{FromPyObject, PyAny, PyErr, PyObject, PyResult, Python};
 use starknet_api::core::{ClassHash, CompiledClassHash, ContractAddress, Nonce};
 use starknet_api::state::StorageKey;
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use crate::errors::{
     NativeBlockifierError,

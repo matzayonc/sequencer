@@ -9,7 +9,7 @@ use starknet_api::deprecated_contract_class::ContractClass as DeprecatedContract
 use starknet_api::hash::StarkHash;
 use starknet_api::state::{ContractClass, StateNumber, StorageKey, ThinStateDiff};
 use starknet_api::{felt, patricia_key};
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use crate::class::{ClassStorageReader, ClassStorageWriter};
 use crate::compiled_class::{CasmStorageReader, CasmStorageWriter};
@@ -291,12 +291,10 @@ fn test_get_class_after_append_thin_state_diff() {
         Some(BlockNumber(0))
     );
     assert!(state_reader.get_class_definition_at(state_number, &CLASS_HASH).unwrap().is_none());
-    assert!(
-        state_reader
-            .get_deprecated_class_definition_at(state_number, &DEPRECATED_CLASS_HASH)
-            .unwrap()
-            .is_none()
-    );
+    assert!(state_reader
+        .get_deprecated_class_definition_at(state_number, &DEPRECATED_CLASS_HASH)
+        .unwrap()
+        .is_none());
 }
 
 #[test]
@@ -724,12 +722,10 @@ fn declare_revert_declare_scenario() {
     let txn = reader.begin_ro_txn().unwrap();
     let state_reader = txn.get_state_reader().unwrap();
     assert!(state_reader.get_class_definition_at(state_number, &class_hash).unwrap().is_some());
-    assert!(
-        state_reader
-            .get_deprecated_class_definition_at(state_number, &deprecated_class_hash)
-            .unwrap()
-            .is_some()
-    );
+    assert!(state_reader
+        .get_deprecated_class_definition_at(state_number, &deprecated_class_hash)
+        .unwrap()
+        .is_some());
 
     // Revert the block and assert that the classes are no longer declared.
     let (txn, _) = writer.begin_rw_txn().unwrap().revert_state_diff(BlockNumber(0)).unwrap();
@@ -737,12 +733,10 @@ fn declare_revert_declare_scenario() {
     let txn = reader.begin_ro_txn().unwrap();
     let state_reader = txn.get_state_reader().unwrap();
     assert!(state_reader.get_class_definition_at(state_number, &class_hash).unwrap().is_none());
-    assert!(
-        state_reader
-            .get_deprecated_class_definition_at(state_number, &deprecated_class_hash)
-            .unwrap()
-            .is_none()
-    );
+    assert!(state_reader
+        .get_deprecated_class_definition_at(state_number, &deprecated_class_hash)
+        .unwrap()
+        .is_none());
 
     // Re-declaring reverted classes should be possible.
     writer
@@ -764,10 +758,8 @@ fn declare_revert_declare_scenario() {
     let txn = reader.begin_ro_txn().unwrap();
     let state_reader = txn.get_state_reader().unwrap();
     assert!(state_reader.get_class_definition_at(state_number, &class_hash).unwrap().is_some());
-    assert!(
-        state_reader
-            .get_deprecated_class_definition_at(state_number, &deprecated_class_hash)
-            .unwrap()
-            .is_some()
-    );
+    assert!(state_reader
+        .get_deprecated_class_definition_at(state_number, &deprecated_class_hash)
+        .unwrap()
+        .is_some());
 }

@@ -1,5 +1,5 @@
-use papyrus_starknet_types_core::felt::Felt;
-use papyrus_starknet_types_core::hash::Poseidon;
+use starknet_types_core::felt::Felt;
+use starknet_types_core::hash::Poseidon;
 
 use super::TransactionLeafElement;
 use crate::block_hash::transaction_commitment::{

@@ -63,7 +63,7 @@ use starknet_api::block::BlockNumber;
 use starknet_api::core::{ClassHash, ContractAddress, Nonce};
 use starknet_api::deprecated_contract_class::ContractClass as DeprecatedContractClass;
 use starknet_api::state::{ContractClass, StateNumber, StorageKey, ThinStateDiff};
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 use tracing::debug;
 
 use crate::db::serialization::{NoVersionValueWrapper, VersionZeroWrapper};

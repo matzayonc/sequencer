@@ -15,7 +15,7 @@ use starknet_api::transaction::{
     ValidResourceBounds,
 };
 use starknet_api::{felt, invoke_tx_args, nonce};
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use crate::context::{BlockContext, ChainInfo};
 use crate::execution::syscalls::SyscallSelector;

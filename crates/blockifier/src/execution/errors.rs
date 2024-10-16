@@ -11,7 +11,7 @@ use num_bigint::{BigInt, TryFromBigIntError};
 use starknet_api::contract_class::EntryPointType;
 use starknet_api::core::{ClassHash, ContractAddress, EntryPointSelector};
 use starknet_api::execution_utils::format_panic_data;
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 use thiserror::Error;
 
 use crate::execution::entry_point::ConstructorContext;

@@ -12,7 +12,7 @@ use starknet_client::reader::objects::state::{
     StateDiff as ClientStateDiff,
     StorageEntry as ClientStorageEntry,
 };
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 const CONTRACT_CLASS_VERSION: &str = "0.1.0";
 

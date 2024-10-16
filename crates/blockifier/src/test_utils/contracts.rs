@@ -11,7 +11,7 @@ use starknet_api::deprecated_contract_class::{
     EntryPointOffset,
 };
 use starknet_api::{class_hash, contract_address, felt, patricia_key};
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 use strum::IntoEnumIterator;
 use strum_macros::EnumIter;
 

@@ -4,7 +4,7 @@ use rstest::rstest;
 use starknet_api::test_utils::NonceManager;
 use starknet_api::transaction::{Fee, TransactionVersion};
 use starknet_api::{declare_tx_args, deploy_account_tx_args, felt, invoke_tx_args, nonce};
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use crate::blockifier::block::BlockNumberHashPair;
 use crate::blockifier::config::TransactionExecutorConfig;

@@ -87,7 +87,7 @@ use starknet_client::reader::objects::transaction::{
     TransactionReceipt as ClientTransactionReceipt,
 };
 use starknet_client::reader::PendingData;
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 use tokio::sync::RwLock;
 
 use super::api::api_impl::JsonRpcServerImpl;

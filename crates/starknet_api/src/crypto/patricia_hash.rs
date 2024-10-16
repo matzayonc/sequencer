@@ -25,8 +25,8 @@
 mod patricia_hash_test;
 
 use bitvec::prelude::{BitArray, Msb0};
-use papyrus_starknet_types_core::felt::Felt;
-use papyrus_starknet_types_core::hash::StarkHash as CoreStarkHash;
+use starknet_types_core::felt::Felt;
+use starknet_types_core::hash::StarkHash as CoreStarkHash;
 
 const TREE_HEIGHT: u8 = 64;
 type BitPath = BitArray<[u8; 8], Msb0>;

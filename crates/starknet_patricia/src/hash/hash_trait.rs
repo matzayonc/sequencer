@@ -1,4 +1,4 @@
-use papyrus_starknet_types_core::felt::FromStrError;
+use starknet_types_core::felt::FromStrError;
 
 use crate::felt::Felt;
 use crate::impl_from_hex_for_felt_wrapper;

@@ -5,7 +5,7 @@ use papyrus_config::dumping::{append_sub_config_name, ser_param, SerializeConfig
 use papyrus_config::{ParamPath, ParamPrivacyInput, SerializedParam};
 use serde::{Deserialize, Serialize};
 use starknet_api::core::Nonce;
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 use validator::Validate;
 
 use crate::compiler_version::VersionId;

@@ -9,8 +9,8 @@ use std::sync::LazyLock;
 use derive_more::Display;
 use primitive_types::H160;
 use serde::{Deserialize, Deserializer, Serialize, Serializer};
-use papyrus_starknet_types_core::felt::{Felt, NonZeroFelt};
-use papyrus_starknet_types_core::hash::{Pedersen, StarkHash as CoreStarkHash};
+use starknet_types_core::felt::{Felt, NonZeroFelt};
+use starknet_types_core::hash::{Pedersen, StarkHash as CoreStarkHash};
 
 use crate::crypto::utils::PublicKey;
 use crate::hash::{PoseidonHash, StarkHash};

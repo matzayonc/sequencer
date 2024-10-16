@@ -26,7 +26,7 @@ use starknet_api::deprecated_contract_class::{
 };
 use starknet_api::state::{StateNumber, StorageKey};
 use starknet_api::transaction::{EventKey, Fee, TransactionHash, TransactionOffsetInBlock};
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 use tracing::debug;
 
 use super::block::Block;

@@ -19,7 +19,7 @@ use starknet_api::transaction::{
     QUERY_VERSION_BASE_BIT,
 };
 use starknet_api::{calldata, felt, nonce, storage_key};
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 use test_case::test_case;
 
 use crate::abi::abi_utils::selector_from_name;

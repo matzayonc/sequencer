@@ -3,7 +3,7 @@ use std::env;
 use std::fs::read_to_string;
 use std::path::Path;
 
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use crate::core::{ContractAddress, Nonce};
 
@@ -47,7 +47,7 @@ impl NonceManager {
 #[macro_export]
 macro_rules! nonce {
     ($s:expr) => {
-        $crate::core::Nonce(papyrus_starknet_types_core::felt::Felt::from($s))
+        $crate::core::Nonce(starknet_types_core::felt::Felt::from($s))
     };
 }
 
@@ -65,6 +65,6 @@ macro_rules! storage_key {
 #[macro_export]
 macro_rules! compiled_class_hash {
     ($s:expr) => {
-        $crate::core::CompiledClassHash(papyrus_starknet_types_core::felt::Felt::from($s))
+        $crate::core::CompiledClassHash(starknet_types_core::felt::Felt::from($s))
     };
 }

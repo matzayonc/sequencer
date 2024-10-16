@@ -13,20 +13,12 @@ use starknet_api::hash::PoseidonHash;
 use starknet_api::test_utils::invoke::{executable_invoke_tx, InvokeTxArgs};
 use starknet_api::transaction::TransactionHash;
 use starknet_batcher_types::batcher_types::{
-    BuildProposalInput,
-    GetProposalContent,
-    GetProposalContentResponse,
-    ProposalCommitment,
-    ProposalId,
-    ProposalStatus,
-    SendProposalContent,
-    SendProposalContentInput,
-    SendProposalContentResponse,
-    StartHeightInput,
-    ValidateProposalInput,
+    BuildProposalInput, GetProposalContent, GetProposalContentResponse, ProposalCommitment,
+    ProposalId, ProposalStatus, SendProposalContent, SendProposalContentInput,
+    SendProposalContentResponse, StartHeightInput, ValidateProposalInput,
 };
 use starknet_batcher_types::communication::MockBatcherClient;
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use crate::sequencer_consensus_context::SequencerConsensusContext;
 
@@ -78,7 +70,7 @@ async fn build_proposal() {
         context.build_proposal(BlockNumber(0), TIMEOUT).await;
     assert_eq!(content_receiver.next().await, Some(TX_BATCH.clone()));
     assert!(content_receiver.next().await.is_none());
-    assert_eq!(fin_receiver.await.unwrap().0, STATE_DIFF_COMMITMENT.0.0);
+    assert_eq!(fin_receiver.await.unwrap().0, STATE_DIFF_COMMITMENT.0 .0);
 }
 
 #[tokio::test]
@@ -122,7 +114,7 @@ async fn validate_proposal_success() {
     content_sender.send(TX_BATCH.clone()).await.unwrap();
     let fin_receiver = context.validate_proposal(BlockNumber(0), TIMEOUT, content_receiver).await;
     content_sender.close_channel();
-    assert_eq!(fin_receiver.await.unwrap().0, STATE_DIFF_COMMITMENT.0.0);
+    assert_eq!(fin_receiver.await.unwrap().0, STATE_DIFF_COMMITMENT.0 .0);
 }
 
 #[tokio::test]
@@ -159,12 +151,12 @@ async fn repropose() {
     content_sender.send(txs.clone()).await.unwrap();
     let fin_receiver = context.validate_proposal(BlockNumber(0), TIMEOUT, content_receiver).await;
     content_sender.close_channel();
-    assert_eq!(fin_receiver.await.unwrap().0, STATE_DIFF_COMMITMENT.0.0);
+    assert_eq!(fin_receiver.await.unwrap().0, STATE_DIFF_COMMITMENT.0 .0);
 
     // Re-proposal: Just asserts this is a known valid proposal.
     context
         .repropose(
-            BlockHash(STATE_DIFF_COMMITMENT.0.0),
+            BlockHash(STATE_DIFF_COMMITMENT.0 .0),
             ProposalInit { height: BlockNumber(0), ..Default::default() },
         )
         .await;

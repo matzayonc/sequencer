@@ -2,7 +2,7 @@ use std::collections::HashMap;
 
 use starknet_api::core::{ClassHash, CompiledClassHash, ContractAddress, Nonce};
 use starknet_api::state::StorageKey;
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use crate::execution::contract_class::ContractClass;
 use crate::state::cached_state::StorageEntry;

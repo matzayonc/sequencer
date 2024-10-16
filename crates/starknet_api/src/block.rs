@@ -7,8 +7,8 @@ use std::fmt::Display;
 use derive_more::Display;
 use itertools::Itertools;
 use serde::{Deserialize, Serialize};
-use papyrus_starknet_types_core::felt::Felt;
-use papyrus_starknet_types_core::hash::{Poseidon, StarkHash as CoreStarkHash};
+use starknet_types_core::felt::Felt;
+use starknet_types_core::hash::{Poseidon, StarkHash as CoreStarkHash};
 
 use crate::core::{
     EventCommitment,

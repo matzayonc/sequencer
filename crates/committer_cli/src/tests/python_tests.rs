@@ -2,7 +2,6 @@ use std::collections::HashMap;
 use std::fmt::Debug;
 
 use ethnum::U256;
-use papyrus_starknet_types_core::hash::{Pedersen, StarkHash};
 use serde_json::json;
 use starknet_api::block_hash::block_hash_calculator::{
     TransactionHashingData, TransactionOutputForHash,
@@ -29,6 +28,7 @@ use starknet_patricia::storage::db_object::DBObject;
 use starknet_patricia::storage::errors::DeserializationError;
 use starknet_patricia::storage::map_storage::MapStorage;
 use starknet_patricia::storage::storage_trait::{Storage, StorageKey, StorageValue};
+use starknet_types_core::hash::{Pedersen, StarkHash};
 use thiserror;
 use tracing::{debug, error, info, warn};
 

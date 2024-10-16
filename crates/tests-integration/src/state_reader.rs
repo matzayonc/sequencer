@@ -48,7 +48,7 @@ use starknet_api::state::{StorageKey, ThinStateDiff};
 use starknet_api::transaction::Fee;
 use starknet_api::{contract_address, felt, patricia_key};
 use starknet_client::reader::PendingData;
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 use strum::IntoEnumIterator;
 use tempfile::TempDir;
 use tokio::sync::RwLock;

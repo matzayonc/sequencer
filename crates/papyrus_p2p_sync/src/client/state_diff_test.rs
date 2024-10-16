@@ -21,7 +21,7 @@ use rand_chacha::ChaCha8Rng;
 use starknet_api::block::{BlockHeader, BlockHeaderWithoutHash, BlockNumber};
 use starknet_api::core::{ClassHash, CompiledClassHash, ContractAddress, Nonce};
 use starknet_api::state::{StorageKey, ThinStateDiff};
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 use static_assertions::const_assert;
 
 use super::test_utils::{

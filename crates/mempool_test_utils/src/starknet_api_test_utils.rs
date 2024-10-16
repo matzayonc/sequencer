@@ -36,7 +36,7 @@ use starknet_api::transaction::{
     ValidResourceBounds,
 };
 use starknet_api::{calldata, felt, nonce};
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use crate::{
     declare_tx_args,

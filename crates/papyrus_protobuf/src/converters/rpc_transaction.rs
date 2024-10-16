@@ -22,7 +22,7 @@ use starknet_api::transaction::{
     InvokeTransactionV3,
     ValidResourceBounds,
 };
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use super::ProtobufConversionError;
 use crate::auto_impl_into_and_try_from_vec_u8;

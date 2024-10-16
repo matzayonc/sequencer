@@ -1,7 +1,7 @@
 use std::sync::LazyLock;
 
 use indexmap::IndexMap;
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use crate::core::{
     ascii_as_felt,

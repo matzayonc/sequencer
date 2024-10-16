@@ -1,5 +1,5 @@
 use async_trait::async_trait;
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 use tokio::sync::mpsc::channel;
 use tokio::task;
 

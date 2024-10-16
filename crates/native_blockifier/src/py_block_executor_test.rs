@@ -8,7 +8,7 @@ use cairo_lang_starknet_classes::casm_contract_class::CasmContractClass;
 use pretty_assertions::assert_eq;
 use starknet_api::core::ClassHash;
 use starknet_api::{class_hash, felt};
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use crate::py_block_executor::{PyBlockExecutor, PyOsConfig};
 use crate::py_objects::PyConcurrencyConfig;

@@ -21,7 +21,7 @@ use papyrus_storage::state::StateStorageReader;
 use papyrus_storage::{StorageError, StorageResult, StorageTxn};
 use starknet_api::core::{ClassHash, ContractAddress, Nonce};
 use starknet_api::state::{StateNumber, StorageKey, ThinStateDiff};
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 use thiserror::Error;
 
 use crate::objects::TransactionTrace;

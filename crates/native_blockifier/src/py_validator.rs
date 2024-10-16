@@ -9,7 +9,7 @@ use blockifier::versioned_constants::VersionedConstants;
 use pyo3::{pyclass, pymethods, PyAny};
 use starknet_api::core::Nonce;
 use starknet_api::transaction::TransactionHash;
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use crate::errors::NativeBlockifierResult;
 use crate::py_block_executor::PyOsConfig;

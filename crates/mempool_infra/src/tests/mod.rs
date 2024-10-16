@@ -2,7 +2,7 @@ mod local_component_client_server_test;
 mod remote_component_client_server_test;
 use async_trait::async_trait;
 use serde::{Deserialize, Serialize};
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use crate::component_client::ClientResult;
 use crate::component_definitions::{ComponentRequestHandler, ComponentStarter};

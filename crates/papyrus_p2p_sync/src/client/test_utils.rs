@@ -23,7 +23,7 @@ use starknet_api::core::ClassHash;
 use starknet_api::crypto::utils::Signature;
 use starknet_api::hash::StarkHash;
 use starknet_api::transaction::FullTransaction;
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 
 use super::{P2PSyncClient, P2PSyncClientChannels, P2PSyncClientConfig};
 

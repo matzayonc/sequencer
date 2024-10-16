@@ -6,7 +6,7 @@ use papyrus_config::dumping::{ser_param, SerializeConfig};
 use papyrus_config::{ParamPath, ParamPrivacyInput, SerializedParam};
 use serde::{Deserialize, Serialize};
 use starknet_sierra_compile::utils::sierra_program_as_felts_to_big_uint_as_hex;
-use papyrus_starknet_types_core::felt::Felt;
+use starknet_types_core::felt::Felt;
 use thiserror::Error;
 
 #[derive(Debug, Error)]
