@@ -41,7 +41,8 @@ parity-scale-codec.workspace = true
 primitive-types.workspace = true
 serde = { workspace = true, features = ["derive"] }
 serde_json = { workspace = true, features = ["arbitrary_precision"] }
-starknet-types-core = { workspace = true, features = ["papyrus-serialization"] }
+# starknet-types-core = { workspace = true, features = ["papyrus-serialization"] }
+starknet-types-core.workspace = true
 starknet_api.workspace = true
 tempfile = { workspace = true, optional = true }
 thiserror.workspace = true
