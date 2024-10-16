@@ -169,8 +169,8 @@ papyrus_rpc = { path = "crates/papyrus_rpc", version = "0.0.0" }
 papyrus_storage = { path = "crates/papyrus_storage", version = "0.0.0" }
 papyrus_sync = { path = "crates/papyrus_sync", version = "0.0.0" }
 papyrus_test_utils = { path = "crates/papyrus_test_utils", version = "0.0.0" }
-parity-scale-codec = "=3.6.9"
-parity-scale-codec-derive = "=3.6.9"
+parity-scale-codec = "3.6.9"
+parity-scale-codec-derive = "3.6.9"
 paste = "1.0.15"
 phf = "0.11"
 pretty_assertions = "1.4.0"
